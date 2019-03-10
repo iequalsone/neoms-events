@@ -1,0 +1,613 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <EventHeader
+    event={
+        Object {
+            "content": "",
+            "end_datetime": "",
+            "image": "",
+            "location": "",
+            "start_datetime": "",
+            "tags": Object {
+              "map": [Function],
+            },
+            "title": "",
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="col-md-8"
+>
+          <img
+                    alt=""
+                    src="default-event.jpg"
+          />
+</div>,
+        <div
+          className="col-md-4"
+>
+          <p
+                    className="card-text date"
+          >
+                    Mar 10, 2019
+          </p>
+          <h3
+                    className="card-text title"
+          />
+          <p
+                    className="card-text location"
+          />
+          <p
+                    className="card-text tags"
+          />
+          <Add To Calendar
+                    buttonClassClosed="react-add-to-calendar__button"
+                    buttonClassOpen="react-add-to-calendar__button--light"
+                    buttonIconClass="react-add-to-calendar__icon--"
+                    buttonLabel="Add to My Calendar"
+                    buttonTemplate={
+                              Object {
+                                        "calendar-plus-o": "left",
+                                      }
+                    }
+                    buttonWrapperClass="react-add-to-calendar__wrapper"
+                    displayItemIcons={false}
+                    dropdownClass="react-add-to-calendar__dropdown"
+                    event={
+                              Object {
+                                        "description": "",
+                                        "endTime": "2019-03-10T18:38:03-0300",
+                                        "location": "",
+                                        "startTime": "2019-03-10T18:38:03-0300",
+                                        "title": "",
+                                      }
+                    }
+                    listItems={
+                              Array [
+                                        Object {
+                                          "apple": "Apple Calendar",
+                                        },
+                                        Object {
+                                          "google": "Google",
+                                        },
+                                        Object {
+                                          "outlook": "Outlook",
+                                        },
+                                        Object {
+                                          "outlookcom": "Outlook.com",
+                                        },
+                                        Object {
+                                          "yahoo": "Yahoo",
+                                        },
+                                      ]
+                    }
+                    optionsOpen={false}
+                    rootClass="react-add-to-calendar"
+                    useFontAwesomeIcons={true}
+          />
+</div>,
+      ],
+      "className": "event-header",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <img
+            alt=""
+            src="default-event.jpg"
+/>,
+          "className": "col-md-8",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "",
+            "src": "default-event.jpg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p
+              className="card-text date"
+>
+              Mar 10, 2019
+</p>,
+            <h3
+              className="card-text title"
+/>,
+            <p
+              className="card-text location"
+/>,
+            <p
+              className="card-text tags"
+/>,
+            <Add To Calendar
+              buttonClassClosed="react-add-to-calendar__button"
+              buttonClassOpen="react-add-to-calendar__button--light"
+              buttonIconClass="react-add-to-calendar__icon--"
+              buttonLabel="Add to My Calendar"
+              buttonTemplate={
+                            Object {
+                                          "calendar-plus-o": "left",
+                                        }
+              }
+              buttonWrapperClass="react-add-to-calendar__wrapper"
+              displayItemIcons={false}
+              dropdownClass="react-add-to-calendar__dropdown"
+              event={
+                            Object {
+                                          "description": "",
+                                          "endTime": "2019-03-10T18:38:03-0300",
+                                          "location": "",
+                                          "startTime": "2019-03-10T18:38:03-0300",
+                                          "title": "",
+                                        }
+              }
+              listItems={
+                            Array [
+                                          Object {
+                                            "apple": "Apple Calendar",
+                                          },
+                                          Object {
+                                            "google": "Google",
+                                          },
+                                          Object {
+                                            "outlook": "Outlook",
+                                          },
+                                          Object {
+                                            "outlookcom": "Outlook.com",
+                                          },
+                                          Object {
+                                            "yahoo": "Yahoo",
+                                          },
+                                        ]
+              }
+              optionsOpen={false}
+              rootClass="react-add-to-calendar"
+              useFontAwesomeIcons={true}
+/>,
+          ],
+          "className": "col-md-4",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Mar 10, 2019",
+              "className": "card-text date",
+            },
+            "ref": null,
+            "rendered": "Mar 10, 2019",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "",
+              "className": "card-text title",
+            },
+            "ref": null,
+            "rendered": "",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "",
+              "className": "card-text location",
+            },
+            "ref": null,
+            "rendered": "",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "className": "card-text tags",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "buttonClassClosed": "react-add-to-calendar__button",
+              "buttonClassOpen": "react-add-to-calendar__button--light",
+              "buttonIconClass": "react-add-to-calendar__icon--",
+              "buttonLabel": "Add to My Calendar",
+              "buttonTemplate": Object {
+                "calendar-plus-o": "left",
+              },
+              "buttonWrapperClass": "react-add-to-calendar__wrapper",
+              "displayItemIcons": false,
+              "dropdownClass": "react-add-to-calendar__dropdown",
+              "event": Object {
+                "description": "",
+                "endTime": "2019-03-10T18:38:03-0300",
+                "location": "",
+                "startTime": "2019-03-10T18:38:03-0300",
+                "title": "",
+              },
+              "listItems": Array [
+                Object {
+                  "apple": "Apple Calendar",
+                },
+                Object {
+                  "google": "Google",
+                },
+                Object {
+                  "outlook": "Outlook",
+                },
+                Object {
+                  "outlookcom": "Outlook.com",
+                },
+                Object {
+                  "yahoo": "Yahoo",
+                },
+              ],
+              "optionsOpen": false,
+              "rootClass": "react-add-to-calendar",
+              "useFontAwesomeIcons": true,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="col-md-8"
+>
+            <img
+                        alt=""
+                        src="default-event.jpg"
+            />
+</div>,
+          <div
+            className="col-md-4"
+>
+            <p
+                        className="card-text date"
+            >
+                        Mar 10, 2019
+            </p>
+            <h3
+                        className="card-text title"
+            />
+            <p
+                        className="card-text location"
+            />
+            <p
+                        className="card-text tags"
+            />
+            <Add To Calendar
+                        buttonClassClosed="react-add-to-calendar__button"
+                        buttonClassOpen="react-add-to-calendar__button--light"
+                        buttonIconClass="react-add-to-calendar__icon--"
+                        buttonLabel="Add to My Calendar"
+                        buttonTemplate={
+                                    Object {
+                                                "calendar-plus-o": "left",
+                                              }
+                        }
+                        buttonWrapperClass="react-add-to-calendar__wrapper"
+                        displayItemIcons={false}
+                        dropdownClass="react-add-to-calendar__dropdown"
+                        event={
+                                    Object {
+                                                "description": "",
+                                                "endTime": "2019-03-10T18:38:03-0300",
+                                                "location": "",
+                                                "startTime": "2019-03-10T18:38:03-0300",
+                                                "title": "",
+                                              }
+                        }
+                        listItems={
+                                    Array [
+                                                Object {
+                                                  "apple": "Apple Calendar",
+                                                },
+                                                Object {
+                                                  "google": "Google",
+                                                },
+                                                Object {
+                                                  "outlook": "Outlook",
+                                                },
+                                                Object {
+                                                  "outlookcom": "Outlook.com",
+                                                },
+                                                Object {
+                                                  "yahoo": "Yahoo",
+                                                },
+                                              ]
+                        }
+                        optionsOpen={false}
+                        rootClass="react-add-to-calendar"
+                        useFontAwesomeIcons={true}
+            />
+</div>,
+        ],
+        "className": "event-header",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              alt=""
+              src="default-event.jpg"
+/>,
+            "className": "col-md-8",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "",
+              "src": "default-event.jpg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="card-text date"
+>
+                Mar 10, 2019
+</p>,
+              <h3
+                className="card-text title"
+/>,
+              <p
+                className="card-text location"
+/>,
+              <p
+                className="card-text tags"
+/>,
+              <Add To Calendar
+                buttonClassClosed="react-add-to-calendar__button"
+                buttonClassOpen="react-add-to-calendar__button--light"
+                buttonIconClass="react-add-to-calendar__icon--"
+                buttonLabel="Add to My Calendar"
+                buttonTemplate={
+                                Object {
+                                                "calendar-plus-o": "left",
+                                              }
+                }
+                buttonWrapperClass="react-add-to-calendar__wrapper"
+                displayItemIcons={false}
+                dropdownClass="react-add-to-calendar__dropdown"
+                event={
+                                Object {
+                                                "description": "",
+                                                "endTime": "2019-03-10T18:38:03-0300",
+                                                "location": "",
+                                                "startTime": "2019-03-10T18:38:03-0300",
+                                                "title": "",
+                                              }
+                }
+                listItems={
+                                Array [
+                                                Object {
+                                                  "apple": "Apple Calendar",
+                                                },
+                                                Object {
+                                                  "google": "Google",
+                                                },
+                                                Object {
+                                                  "outlook": "Outlook",
+                                                },
+                                                Object {
+                                                  "outlookcom": "Outlook.com",
+                                                },
+                                                Object {
+                                                  "yahoo": "Yahoo",
+                                                },
+                                              ]
+                }
+                optionsOpen={false}
+                rootClass="react-add-to-calendar"
+                useFontAwesomeIcons={true}
+/>,
+            ],
+            "className": "col-md-4",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Mar 10, 2019",
+                "className": "card-text date",
+              },
+              "ref": null,
+              "rendered": "Mar 10, 2019",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "",
+                "className": "card-text title",
+              },
+              "ref": null,
+              "rendered": "",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "",
+                "className": "card-text location",
+              },
+              "ref": null,
+              "rendered": "",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+                "className": "card-text tags",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "buttonClassClosed": "react-add-to-calendar__button",
+                "buttonClassOpen": "react-add-to-calendar__button--light",
+                "buttonIconClass": "react-add-to-calendar__icon--",
+                "buttonLabel": "Add to My Calendar",
+                "buttonTemplate": Object {
+                  "calendar-plus-o": "left",
+                },
+                "buttonWrapperClass": "react-add-to-calendar__wrapper",
+                "displayItemIcons": false,
+                "dropdownClass": "react-add-to-calendar__dropdown",
+                "event": Object {
+                  "description": "",
+                  "endTime": "2019-03-10T18:38:03-0300",
+                  "location": "",
+                  "startTime": "2019-03-10T18:38:03-0300",
+                  "title": "",
+                },
+                "listItems": Array [
+                  Object {
+                    "apple": "Apple Calendar",
+                  },
+                  Object {
+                    "google": "Google",
+                  },
+                  Object {
+                    "outlook": "Outlook",
+                  },
+                  Object {
+                    "outlookcom": "Outlook.com",
+                  },
+                  Object {
+                    "yahoo": "Yahoo",
+                  },
+                ],
+                "optionsOpen": false,
+                "rootClass": "react-add-to-calendar",
+                "useFontAwesomeIcons": true,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

@@ -2,10 +2,6 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 
 class TagLink extends Component {
-  // handleOnClick(event) {
-  //   console.log(event);
-  // }
-
   render() {
     const { tag } = this.props;
     return (

@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Pagination />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="col-xs-6"
+>
+          <p
+                    className="text-right"
+          />
+</div>,
+        <div
+          className="col-xs-6"
+>
+          <p
+                    className="text-left"
+          >
+                    <a
+                              href="/events/2"
+                    >
+                              Next
+                    </a>
+          </p>
+</div>,
+      ],
+      "className": "row event-pagination",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <p
+            className="text-right"
+/>,
+          "className": "col-xs-6",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": "text-right",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "p",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <p
+            className="text-left"
+>
+            <a
+                        href="/events/2"
+            >
+                        Next
+            </a>
+</p>,
+          "className": "col-xs-6",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <a
+              href="/events/2"
+>
+              Next
+</a>,
+            "className": "text-left",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Next",
+              "href": "/events/2",
+            },
+            "ref": null,
+            "rendered": "Next",
+            "type": "a",
+          },
+          "type": "p",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="col-xs-6"
+>
+            <p
+                        className="text-right"
+            />
+</div>,
+          <div
+            className="col-xs-6"
+>
+            <p
+                        className="text-left"
+            >
+                        <a
+                                    href="/events/2"
+                        >
+                                    Next
+                        </a>
+            </p>
+</div>,
+        ],
+        "className": "row event-pagination",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <p
+              className="text-right"
+/>,
+            "className": "col-xs-6",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "className": "text-right",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "p",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <p
+              className="text-left"
+>
+              <a
+                            href="/events/2"
+              >
+                            Next
+              </a>
+</p>,
+            "className": "col-xs-6",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                href="/events/2"
+>
+                Next
+</a>,
+              "className": "text-left",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Next",
+                "href": "/events/2",
+              },
+              "ref": null,
+              "rendered": "Next",
+              "type": "a",
+            },
+            "type": "p",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
