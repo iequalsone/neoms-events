@@ -1,0 +1,10 @@
+{
+  "name": "iequalsone/neoms-events",
+  "description": "NEOMS Events Section",
+  "keywords": [
+    "wordpress",
+    "blog",
+    "cms"
+  ],
+  "type": "react-app"
+}
